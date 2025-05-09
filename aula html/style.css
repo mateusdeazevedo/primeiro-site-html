@@ -1,0 +1,61 @@
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-indent: 10px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+mark {
+    background-color: yellow;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+form {
+    margin: 30px auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
